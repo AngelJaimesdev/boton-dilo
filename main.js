@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const img = document.createElement('img');
   // img.src = 'logo_dilo/DILO_LOGO-03.png';
-  img.src = 'https://angeljaimesdev.github.io/PRUEBA-BOTON/logo_dilo/DILO_LOGO-03.png';
+  img.src = 'https://angeljaimesdev.github.io/boton-dilo/logo_dilo/DILO_LOGO-03.png';
   img.alt = 'Logo de DILO';
   img.style.width = '90%';
   img.style.height = '90%';
