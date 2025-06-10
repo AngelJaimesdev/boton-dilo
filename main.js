@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
   div.style.backgroundColor = '#0066ad';
 
   const img = document.createElement('img');
-  img.src = 'logo_dilo/DILO_LOGO-03.png';
+  // img.src = 'logo_dilo/DILO_LOGO-03.png';
+  img.src = 'https://angeljaimesdev.github.io/PRUEBA-BOTON/logo_dilo/DILO_LOGO-03.png';
   img.alt = 'Logo de DILO';
   img.style.width = '90%';
   img.style.height = '90%';
