@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
   fontLink.rel = 'stylesheet';
   document.head.appendChild(fontLink);
 
-  // Crear div con logo redondo
   const div = document.createElement('div');
   div.style.borderRadius = '100%';
   div.style.overflow = 'hidden';
