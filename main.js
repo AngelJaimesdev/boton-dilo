@@ -66,27 +66,6 @@ class PayButton extends HTMLElement {
 
     button.classList.add("dilo-button");
 
-    const style = document.createElement("style");
-    style.textContent = `
-      @media (max-width: 350px) {
-        .dilo-text {
-          display: none !important;
-        }
-
-        .dilo-button {
-          display: flex;
-          justify-content: center;
-          items-align: center;
-          width: 30vw !important;
-          padding-right: 5px !important;
-          padding-left: 5px !important;
-        }
-      }
-      }
-    `;
-
-    document.head.appendChild(style);
-
     button.addEventListener("click", async () => {
       button.style.pointerEvents = "none";
       button.style.opacity = "0.6";
